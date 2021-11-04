@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danitseitlin/redis-modules-sdk.git"
+    "url": "git+https://github.com/Sports-Easy/redis-modules-sdk-ts.git"
   },
   "keywords": [
     "redis-modules-sdk",
@@ -70,4 +70,7 @@
   "dependencies": {
     "ioredis": "^4.27.4"
   }
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
 }
