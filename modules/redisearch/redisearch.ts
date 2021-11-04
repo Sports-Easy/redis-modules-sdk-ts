@@ -74,7 +74,7 @@ export class Redisearch extends Module {
     async aggregate(index: string, query: string, parameters?: FTAggregateParameters): Promise<[number, ...Array<string[]>]> {
         const command = this.searchCommander.aggregate(index, query, parameters);
         const response = await this.sendCommand(command);
-        return this.handleResponse(response);
+        return response;
     }
 
     /**
