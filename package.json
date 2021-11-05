@@ -1,6 +1,6 @@
 {
   "name": "@Sports-Easy/redis-modules-sdk-ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Software development kit for easier connection and execution of Redis Modules commands. ",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
