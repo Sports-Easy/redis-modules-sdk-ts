@@ -1,5 +1,5 @@
 {
-  "name": "redis-modules-sdk",
+  "name": "@Sports-Easy/redis-modules-sdk-ts",
   "version": "0.0.1",
   "description": "A Software development kit for easier connection and execution of Redis Modules commands. ",
   "main": "lib/index.js",
@@ -45,12 +45,9 @@
     "typescript",
     "nodejs"
   ],
-  "author": "Dani Tseitlin",
+  "author": "Ashleigh Plummer",
   "license": "BSD-3-Clause",
-  "bugs": {
-    "url": "https://github.com/danitseitlin/redis-modules-sdk/issues"
-  },
-  "homepage": "https://github.com/danitseitlin/redis-modules-sdk#readme",
+  "homepage": "https://github.com/Sports-Easy/redis-modules-sdk-ts",
   "devDependencies": {
     "@types/chai": "^4.2.14",
     "@types/eslint": "^7.2.5",
@@ -69,8 +66,8 @@
   },
   "dependencies": {
     "ioredis": "^4.27.4"
-  }
+  },
   "publishConfig": {
     "registry":"https://npm.pkg.github.com"
-  },
+  }
 }
