@@ -68,6 +68,6 @@
     "ioredis": "^4.27.4"
   },
   "publishConfig": {
-    "@Sports-Easy:registry": "https://npm.pkg.github.com"
+    "@sports-easy:registry": "https://npm.pkg.github.com"
   }
 }
